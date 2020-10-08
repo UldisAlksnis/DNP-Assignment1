@@ -1,7 +1,14 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 
-namespace Models {
+namespace Assignment1.Models {
 public class Adult : Person {
+    
+    
+    public int Id { get; set; }
+    [NotNull]
+    public int AdultId { get; set; }
+    [NotNull]
     public string JobTitle { get; set; }
 
     public override string ToString() {

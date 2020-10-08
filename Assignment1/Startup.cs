@@ -52,6 +52,7 @@ namespace Assignment1
                     return int.Parse(levelClaim.Value) >= 2;
                 }));
             });
+            services.AddSingleton<IPersonService, PersonService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
