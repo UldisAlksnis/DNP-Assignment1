@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SchoolShit\\DNP\\git\\Assignment1\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "D:\\DNP\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "D:\\SchoolShit\\DNP\\git\\Assignment1\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectPath": "D:\\DNP\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\csmcc\\.nuget\\packages\\",
-      "outputPath": "D:\\SchoolShit\\DNP\\git\\Assignment1\\DNP-Assignment1\\Assignment1\\obj\\",
+      "outputPath": "D:\\DNP\\DNP-Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\csmcc\\AppData\\Roaming\\NuGet\\NuGet.Config",
