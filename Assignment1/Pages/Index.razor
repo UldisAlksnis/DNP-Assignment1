@@ -1,7 +1,62 @@
 ﻿@page "/"
+@using Assignment1.Data
+@using Assignment1.Models
+@inject IAdultService AdultService
+<h3>Adults:</h3>
+@if (adults == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!adults.Any())
+{
+    <p><em>No adult items exist. Please add some.</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Hair Color</th>
+                <th>Eye Color</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Sex</th>
+                <th>Job</th>
 
-<h1>Hello, world!</h1>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in adults)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.HairColor</td>
+                    <td>@item.EyeColor</td>
+                    <td>@item.Age</td>
+                    <td>@item.Height</td>
+                    <td>@item.Weight</td>
+                    <td>@item.Sex</td>
+                    <td>@item.JobTitle</td>
 
-Welcome to your new app.
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+    private IList<Adult> adults;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() => adults = AdultService.GetAdults());
+
+    }
+
+}
