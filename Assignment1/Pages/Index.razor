@@ -13,6 +13,17 @@ else if (!adults.Any())
 }
 else
 {
+    <div class="form-group">
+        <label>Search</label>
+        <input type="text" placeholder="user name" @bind-value="searchinput" />
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" placeholder="password" @bind-value="filter" />
+    </div>
+    <a href="" @onclick="PerformSearch">
+        Search
+    </a>
     <table class="table">
         <thead>
             <tr>
@@ -30,21 +41,9 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in adults)
+            @if (searchinput.Equals(""))
             {
-                <tr>
-                    <td>@item.Id</td>
-                    <td>@item.FirstName</td>
-                    <td>@item.LastName</td>
-                    <td>@item.HairColor</td>
-                    <td>@item.EyeColor</td>
-                    <td>@item.Age</td>
-                    <td>@item.Height</td>
-                    <td>@item.Weight</td>
-                    <td>@item.Sex</td>
-                    <td>@item.JobTitle</td>
-
-                </tr>
+                DisplayAdults(adults);
             }
         </tbody>
     </table>
@@ -52,11 +51,38 @@ else
 
 @code {
     private IList<Adult> adults;
+    private String searchinput = "";
+    private String filter;
 
     protected override async Task OnInitializedAsync()
     {
         await Task.Run(() => adults = AdultService.GetAdults());
+        await Task.Run(() => searchinput = "");
 
     }
 
+    public void PerformSearch()
+    {
+
+    }
+}
+@{
+    void DisplayAdults(IList<Adult> adultsToDisplay)
+    {
+        @foreach (var item in adultsToDisplay)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.HairColor</td>
+                <td>@item.EyeColor</td>
+                <td>@item.Age</td>
+                <td>@item.Height</td>
+                <td>@item.Weight</td>
+                <td>@item.Sex</td>
+                <td>@item.JobTitle</td>
+            </tr>
+        }
+    }
 }
