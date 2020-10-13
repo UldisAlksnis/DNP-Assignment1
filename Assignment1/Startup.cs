@@ -53,11 +53,8 @@ namespace Assignment1
                     return int.Parse(levelClaim.Value) >= 2;
                 }));
             });
-<<<<<<< Updated upstream
-=======
             //Persons...
             services.AddSingleton<IAdultService, AdultService>();
->>>>>>> Stashed changes
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

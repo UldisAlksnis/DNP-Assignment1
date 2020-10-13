@@ -1,11 +1,7 @@
 using System.Text.Json;
 
-namespace Models {
+namespace Assignment1.Models {
 public class Adult : Person {
-<<<<<<< Updated upstream
-    public string JobTitle { get; set; }
-=======
->>>>>>> Stashed changes
 
         public string JobTitle { get; set; }
 

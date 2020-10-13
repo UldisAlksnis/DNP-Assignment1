@@ -1,13 +1,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-<<<<<<< Updated upstream
-using Models;
-=======
 using Assignment1.Models;
->>>>>>> Stashed changes
 
-namespace FileData {
+namespace Assignment1.Persistence {
 public class FileContext {
     public IList<Family> Families { get; private set; }
     public IList<Adult> Adults { get; private set; }
