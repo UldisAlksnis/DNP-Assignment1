@@ -32,7 +32,6 @@ namespace Assignment1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<ITodoService, TodoService>();
             //Authorization
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
@@ -40,6 +39,8 @@ namespace Assignment1
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("MustBeFamily", a => a.RequireAuthenticatedUser().RequireClaim("Domain", "assignment1.families"));
+
+                options.AddPolicy("GuestAndMember", a => a.RequireAuthenticatedUser().RequireClaim("Level", "0", "1", "2", "3"));
 
                 options.AddPolicy("SecurityLevel4", a => a.RequireAuthenticatedUser().RequireClaim("Level", "4", "5"));
 
@@ -52,7 +53,8 @@ namespace Assignment1
                     return int.Parse(levelClaim.Value) >= 2;
                 }));
             });
-            services.AddSingleton<IPersonService, PersonService>();
+            //Persons...
+            services.AddSingleton<IAdultService, AdultService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

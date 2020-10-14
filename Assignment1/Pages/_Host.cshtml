@@ -1,10 +1,12 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @namespace Assignment1.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = null;
 }
-
+@inject AuthenticationStateProvider AuthenticationStateProvider
 <!DOCTYPE html>
 <html lang="en">
 <head>

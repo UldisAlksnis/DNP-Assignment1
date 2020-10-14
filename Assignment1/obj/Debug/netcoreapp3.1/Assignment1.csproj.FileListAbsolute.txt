@@ -49,70 +49,15 @@ D:\SchoolShit\DNP\Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\As
 D:\SchoolShit\DNP\Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 D:\SchoolShit\DNP\Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
 D:\SchoolShit\DNP\Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\adults.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\families.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\todos.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.dev.json
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.dll
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorComponent.input.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\TodoList.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Assignment1.dll
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\TodoList.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Persons.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Persons.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddPerson.razor.g.cs
-C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\AddPerson.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\adults.json
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
-D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\families.json
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+<<<<<<< Updated upstream
+D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\adults.json
+D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\families.json
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\todos.json
-D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\persons.json
+=======
+>>>>>>> Stashed changes
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
 D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
@@ -128,13 +73,12 @@ D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.Co
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorComponent.input.cache
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddPerson.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Persons.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\SecurityLevel.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\TodoList.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\SecurityLevel.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -144,13 +88,12 @@ D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelper
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\AddPerson.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Persons.razor.g.cs
-D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\SecurityLevel.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\TodoList.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\SecurityLevel.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -168,3 +111,6 @@ D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
 D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
+D:\DNP\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\persons.json
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddPerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\AddPerson.razor.g.cs
