@@ -175,3 +175,10 @@ C:\Users\Sam2\Rider Projects\Test\DNP-Assignment1\Assignment1\obj\Debug\netcorea
 C:\Users\Sam2\Rider Projects\Test\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DeletePerson.razor.g.cs
 C:\Users\Sam2\Rider Projects\Test\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\DeletePerson.razor.g.cs
 C:\Users\Sam2\Rider Projects\Test\DNP-Assignment1\Assignment1\bin\Debug\netcoreapp3.1\persons.json
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DeletePerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditPerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Persons.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ViewPerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\DeletePerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\EditPerson.razor.g.cs
+D:\DNP\DNP-Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\ViewPerson.razor.g.cs

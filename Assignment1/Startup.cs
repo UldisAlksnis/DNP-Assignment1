@@ -28,7 +28,7 @@ namespace Assignment1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<IPersonService, PersonService>();
+            services.AddSingleton<IAdultService, AdultService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
