@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
+<<<<<<< Updated upstream
     <attachedFolders />
+=======
+    <attachedFolders>
+      <Path>../../Test</Path>
+    </attachedFolders>
+>>>>>>> Stashed changes
     <explicitIncludes />
     <explicitExcludes />
   </component>

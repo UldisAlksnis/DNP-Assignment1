@@ -3,6 +3,7 @@
 @using Assignment1.Models
 @using System.ComponentModel.DataAnnotations;
 @inject IAdultService AdultService
+
 <h4>Adults:</h4>
 @if (adults == null)
 {
@@ -27,7 +28,7 @@ else
     [ValidFilter]
     private String filter = "";
     private static List<string> filters = new[] {"--Select Filter--", "First Name", "Last Name", "Hair Color", "Eye Color",
-            "Age Min", "Age Max", "Height Min", "Height Max","Weight Min", "Weight Max", "Sex", "Job"}.ToList();
+            "Age Min", "Age Max", "Height Min", "Height Max","Weight Min", "Weight Max", "Male", "Female", "Job"}.ToList();
 
     protected override async Task OnInitializedAsync()
     {
@@ -73,6 +74,7 @@ else
                 </tr>
             </thead>
             <tbody>
+             
                 @foreach (var item in adultsToDisplay)
                 {
                     <tr>

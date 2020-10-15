@@ -22,8 +22,83 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="392d3dff-0e83-48bb-8d49-45b5b46e7b9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="7bf1c615-341e-4f45-a1d2-c32df5de5c84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment1/Pages/DeletePerson.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment1/Pages/EditPerson.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment1/Pages/ViewPerson.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Assignment1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Assignment1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Assignment1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Assignment1/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Data/IAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Data/IAdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Models/Adult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/adults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/adults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/persons.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/persons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Assignment1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Assignment1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Assignment1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Assignment1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorComponent.input.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.TagHelpers.output.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/AddPerson.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/AddPerson.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Counter.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/SecurityLevel.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/SecurityLevel.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddPerson.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddPerson.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/SecurityLevel.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/SecurityLevel.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/persons.json" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +111,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assignment1/Startup.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/Assignment1/Models/ChildInterest.cs" />
@@ -54,12 +130,35 @@
   </component>
   <component name="ProjectId" id="1iamRypycmgiKYcXZ6qPdDDap1e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+        <option value="$PROJECT_DIR$/Assignment1/Pages/_Host.cshtml" />
+        <option value="$PROJECT_DIR$/Assignment1/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/PersonList.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/Index.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Data/IAdultService.cs" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/DeletePerson.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Models/Adult.cs" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/EditPerson.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Data/AdultService.cs" />
+        <option value="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" />
+        <option value="$PROJECT_DIR$/Assignment1/Pages/ViewPerson.razor" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1isL1HpL8CpYBYfmUHWR15bAPsH" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< Updated upstream
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+=======
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> Stashed changes
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Assignment1">
@@ -97,19 +196,36 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="392d3dff-0e83-48bb-8d49-45b5b46e7b9c" name="Default Changelist" comment="" />
       <created>1602154072434</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602154072434</updated>
       <workItem from="1602154078540" duration="17335000" />
+=======
+      <changelist id="7bf1c615-341e-4f45-a1d2-c32df5de5c84" name="Default Changelist" comment="" />
+      <created>1602691136279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602691136279</updated>
+      <workItem from="1602691161262" duration="4192000" />
+      <workItem from="1602764782927" duration="2448000" />
+      <workItem from="1602770296487" duration="23719000" />
+      <workItem from="1602794433362" duration="7567000" />
+      <workItem from="1602802037426" duration="2531000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+>>>>>>> Stashed changes
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -121,11 +237,16 @@
         </entry>
       </map>
     </option>
+<<<<<<< Updated upstream
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> Stashed changes
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state width="1001" height="165" key="GridCell.Tab.0.bottom" timestamp="1602171328931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -146,14 +267,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="414" y="41" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1602164970528" />
+=======
+    <state width="1237" height="85" key="GridCell.Tab.0.bottom" timestamp="1602804544880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="85" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602804544880" />
+    <state width="1237" height="85" key="GridCell.Tab.0.center" timestamp="1602804544880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="85" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602804544880" />
+    <state width="1237" height="85" key="GridCell.Tab.0.left" timestamp="1602804544880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="85" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602804544880" />
+    <state width="1237" height="85" key="GridCell.Tab.0.right" timestamp="1602804544880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="85" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602804544880" />
+    <state x="210" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1602766978733">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="210" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1602766978733" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
+<<<<<<< Updated upstream
           <url>file://$PROJECT_DIR$/Assignment1/Pages/AddPerson.razor</url>
           <line>3</line>
           <properties documentPath="C:\Users\Sam2\Rider Projects\DNP-Assignment1\Assignment1\Pages\AddPerson.razor" initialLine="3" isMultiMethodBreakpoint="true">
+=======
+          <url>file://$PROJECT_DIR$/Assignment1/Pages/Index.razor</url>
+          <line>94</line>
+          <properties documentPath="C:\Users\Sam2\Rider Projects\Test\DNP-Assignment1\Assignment1\Pages\Index.razor" initialLine="93" isMultiMethodBreakpoint="true">
+>>>>>>> Stashed changes
             <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>
               <option value="-1" />
@@ -164,6 +313,7 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+<<<<<<< Updated upstream
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor</url>
           <line>25</line>
@@ -192,6 +342,8 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+=======
+>>>>>>> Stashed changes
       </breakpoints>
     </breakpoint-manager>
   </component>

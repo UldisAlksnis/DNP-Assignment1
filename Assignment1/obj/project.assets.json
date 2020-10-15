@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\csmcc\\.nuget\\packages\\": {}
+    "C:\\Users\\Sam2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DNP\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\Sam2\\Rider Projects\\Test\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "D:\\DNP\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
-      "packagesPath": "C:\\Users\\csmcc\\.nuget\\packages\\",
-      "outputPath": "D:\\DNP\\DNP-Assignment1\\Assignment1\\obj\\",
+      "projectPath": "C:\\Users\\Sam2\\Rider Projects\\Test\\DNP-Assignment1\\Assignment1\\Assignment1.csproj",
+      "packagesPath": "C:\\Users\\Sam2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sam2\\Rider Projects\\Test\\DNP-Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\csmcc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sam2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

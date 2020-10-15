@@ -1,0 +1,25 @@
+﻿@page "/DeletePerson/{id:int}"
+@using Assignment1.Data
+@using Assignment1.Models
+@inject IAdultService AdultService
+@inject NavigationManager NavigationManager
+
+@code  {
+    [Parameter]
+    public int id { get; set; }
+    
+
+    private Adult adultToRemove;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() => AdultService.RemoveAdult(id));
+        await Task.Run(() => Navigate());
+
+    }
+    private async Task Navigate()
+    {
+        NavigationManager.NavigateTo("/ViewPerson", true);
+    }
+
+}
