@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Assignment1.Data;
+using Assignment1.Data.Authorization.Impl;
+using Assignment1.Data.Authorization;
+using Microsoft.AspNetCore.Components.Authorization;
+using System.Security.Claims;
 
 namespace Assignment1
 {
@@ -28,6 +32,28 @@ namespace Assignment1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            //Authorization
+            services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+            //Authorization - Policies
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("MustBeFamily", a => a.RequireAuthenticatedUser().RequireClaim("Domain", "assignment1.families"));
+
+                options.AddPolicy("GuestAndMember", a => a.RequireAuthenticatedUser().RequireClaim("Level", "0", "1", "2", "3"));
+
+                options.AddPolicy("SecurityLevel4", a => a.RequireAuthenticatedUser().RequireClaim("Level", "4", "5"));
+
+                options.AddPolicy("MustBeAdmin", a => a.RequireAuthenticatedUser().RequireClaim("MustBeAdmin", "Admin"));
+
+                options.AddPolicy("SecurityLevel2", a => a.RequireAuthenticatedUser().RequireAssertion(context =>
+                {
+                    Claim levelClaim = context.User.FindFirst(claim => claim.Type.Equals("Level"));
+                    if (levelClaim == null) return false;
+                    return int.Parse(levelClaim.Value) >= 2;
+                }));
+            });
+            //Persons...
             services.AddSingleton<IAdultService, AdultService>();
         }
 
