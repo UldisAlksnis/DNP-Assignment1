@@ -26,7 +26,7 @@ else
     private String searchinput = "";
     private String errorMessage;
     [ValidFilter]
-    private String filter = "";
+    private String filter = "--Select Filter--";
     private static List<string> filters = new[] {"--Select Filter--", "First Name", "Last Name", "Hair Color", "Eye Color",
             "Age Min", "Age Max", "Height Min", "Height Max","Weight Min", "Weight Max", "Male", "Female", "Job"}.ToList();
 
@@ -111,7 +111,7 @@ else
                     {
                         if (!selectionMade)
                         {
-                            <option value="@item.ToString()" selected = "selected">@item.ToString()</option>
+                            <option value="@item.ToString()" selected>@item.ToString()</option>
                             selectionMade = true;
                         }
                         else
