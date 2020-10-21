@@ -3,6 +3,7 @@
 @using Assignment1.Models
 @using System.ComponentModel.DataAnnotations;
 @inject IAdultService AdultService
+
 <h4>Adults:</h4>
 @if (adults == null)
 {
@@ -25,9 +26,9 @@ else
     private String searchinput = "";
     private String errorMessage;
     [ValidFilter]
-    private String filter = "";
+    private String filter = "--Select Filter--";
     private static List<string> filters = new[] {"--Select Filter--", "First Name", "Last Name", "Hair Color", "Eye Color",
-            "Age Min", "Age Max", "Height Min", "Height Max","Weight Min", "Weight Max", "Sex", "Job"}.ToList();
+            "Age Min", "Age Max", "Height Min", "Height Max","Weight Min", "Weight Max", "Male", "Female", "Job"}.ToList();
 
     protected override async Task OnInitializedAsync()
     {
@@ -73,6 +74,7 @@ else
                 </tr>
             </thead>
             <tbody>
+             
                 @foreach (var item in adultsToDisplay)
                 {
                     <tr>
@@ -96,6 +98,7 @@ else
     async Task DisplaySearch()
     {
         errorMessage = "";
+        bool selectionMade = false;
         try
         {
             <div class="form-group">
@@ -106,7 +109,15 @@ else
                 <select class="form-control selectpicker" @bind="filter">
                     @foreach (var item in filters)
                     {
-                        <option value="@item.ToString()">@item.ToString()</option>
+                        if (!selectionMade)
+                        {
+                            <option value="@item.ToString()" selected>@item.ToString()</option>
+                            selectionMade = true;
+                        }
+                        else
+                        {
+                            <option value="@item.ToString()">@item.ToString()</option>
+                        }
                     }
                 </select>
             </div>

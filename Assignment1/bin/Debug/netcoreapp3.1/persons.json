@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 [{"Id":0,"FirstName":"Yeshua","LastName":"Magana","HairColor":"Black","EyeColor":"Blue","Age":44,"Weight":61.4,"Height":166,"Sex":"M"},{"Id":1,"FirstName":"Jayden","LastName":"Harrell","HairColor":"Leverpostej","EyeColor":"Brown","Age":43,"Weight":76.6,"Height":145,"Sex":"F"},{"Id":2,"FirstName":"Drago","LastName":"Bulgaria","HairColor":"Brown","EyeColor":"Brown","Age":22,"Weight":220,"Height":180,"Sex":null}]
 =======
 [{"JobTitle":"Ninja","Id":0,"FirstName":"Yeshua","LastName":"Magana","HairColor":"Black","EyeColor":"Blue","Age":44,"Weight":61.4,"Height":166,"Sex":"M"},{"JobTitle":"Ninja","Id":1,"FirstName":"Jayden","LastName":"Harrell","HairColor":"Leverpostej","EyeColor":"Brown","Age":43,"Weight":76.6,"Height":145,"Sex":"F"},{"JobTitle":"Chef","Id":2,"FirstName":"John","LastName":"Doe","HairColor":"Brown","EyeColor":"Hazel","Age":20,"Weight":90,"Height":180,"Sex":"Male"},{"JobTitle":"Chef","Id":3,"FirstName":"Bob","LastName":"Last","HairColor":"Brown","EyeColor":"Hazel","Age":29,"Weight":90,"Height":193,"Sex":"M"},{"JobTitle":"Chef","Id":4,"FirstName":"John","LastName":"Wayn","HairColor":"Black","EyeColor":"Brown","Age":35,"Weight":80,"Height":180,"Sex":"M"}]
->>>>>>> Uldis
+>>>>>>> origin/Uldis
+=======
+[{"JobTitle":"Chef","Id":0,"FirstName":"Yeshua","LastName":"Magana","HairColor":"Black","EyeColor":"Blue","Age":44,"Weight":61.4,"Height":166,"Sex":"M"},{"JobTitle":"Ninja","Id":1,"FirstName":"Jayden","LastName":"Harrell","HairColor":"Leverpostej","EyeColor":"Brown","Age":43,"Weight":76.6,"Height":145,"Sex":"F"},{"JobTitle":"Chef","Id":2,"FirstName":"Admin","LastName":"admin","HairColor":"Brown","EyeColor":"Hazel","Age":20,"Weight":90,"Height":190,"Sex":"M"}]
+>>>>>>> Stashed changes

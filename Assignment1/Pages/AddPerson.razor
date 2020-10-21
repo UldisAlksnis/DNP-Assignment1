@@ -1,64 +1,6 @@
 ﻿@page "/AddPerson"
 @using Assignment1.Data
 @using Assignment1.Models
-<<<<<<< HEAD
-@inject IPersonService PersonService
-@inject NavigationManager NavigationManager
-<h3>AddPerson</h3>
-<EditForm Model="@newPerson" OnValidSubmit="@AddNewPerson">
-    <DataAnnotationsValidator/>
-    <ValidationSummary/>
-   
-    <div class="form-group">
-       First Name:<br/>
-        <InputTextArea rows="1" @bind-Value="newPerson.FirstName"/>
-    </div>
-    <div class="form-group">
-        Last Name:<br/>
-        <InputTextArea rows="1" @bind-Value="newPerson.LastName"/>
-    </div>
-    <div class="form-group">
-        Hair Color:<br/>
-        <InputTextArea rows="1" @bind-Value="newPerson.HairColor"/>
-    </div>
-    <div class="form-group">
-        Eye Color:<br/>
-        <InputTextArea rows="1" @bind-Value="newPerson.EyeColor"/>
-    </div>
-    <div class="form-group">
-        Age:<br/>
-        <InputNumber rows="1" @bind-Value="newPerson.Age"/>
-    </div>
-    <div class="form-group">
-        Height:<br/>
-        <InputNumber rows="1" @bind-Value="newPerson.Height"/>
-    </div>
-    <div class="form-group">
-        Weight:<br/>
-        <InputNumber rows="1" @bind-Value="newPerson.Weight"/>
-    </div>
-     <div class="form-group">
-                                    Sex:<br/>
-                                    <InputTextArea rows="1" @bind-Value="newPerson.Sex"/>
-                                </div>
-    <p class="actions">
-        <button class="btn btn-outline-dark" type="submit">Create</button>
-    </p>
-</EditForm>
-
-@code {
-    private readonly Person newPerson = new Person();
-
-    private void AddNewPerson()
-    {
-        PersonService.AddPerson(newPerson);
-        NavigationManager.NavigateTo("/Persons",true);
-    }
-
-   
-
-}
-=======
 @inject IAdultService AdultService
 @inject NavigationManager NavigationManager
 
@@ -144,4 +86,3 @@
 
     }
 </AuthorizeView>
->>>>>>> Uldis

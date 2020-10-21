@@ -1,0 +1,61 @@
+﻿@page "/EditPerson/{id:int}"
+@using Assignment1.Data
+@using Assignment1.Models
+@inject IAdultService AdultService
+@inject NavigationManager NavigationManager
+<h3>Edit Adult</h3>
+<EditForm Model="@adultToEdit" OnValidSubmit="@UpdateAdult">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+<div class="form-group">
+        First Name:<br />
+        <label>@adultToEdit.FirstName</label>
+    </div>
+    <div class="form-group">
+        Last Name:<br />
+        <label>@adultToEdit.LastName</label>
+    </div>
+    <div class="form-group">
+        Job:<br />
+        <InputTextArea rows="1" @bind-Value="adultToEdit.JobTitle" />
+        
+    </div>
+<p class="actions">
+    <button class="btn btn-primary" type="submit">Edit</button>
+    <button class="btn btn-warning" type="button" @onclick="cancel">Cancel</button>
+        
+</p>
+</EditForm>
+
+@code  {
+    [Parameter]
+    public int id { get; set; }
+
+    public string error = "";
+
+    private Adult adultToEdit;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() => adultToEdit = AdultService.GetById(id));
+
+    }
+
+    private async Task UpdateAdult()
+    {
+        await Task.Run(() => AdultService.UpdateAdult(adultToEdit));
+            await Task.Run(() => Navigate());
+
+    }
+
+    private async Task Navigate()
+    {
+        error = "";
+        NavigationManager.NavigateTo("/ViewPerson", true);
+    }
+    private void cancel()
+    {
+        Navigate();
+    }
+
+}

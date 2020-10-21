@@ -1,14 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Threading.Tasks;
 using Assignment1.Models;
 
 namespace Assignment1.Data
 {
     public class AdultService : IAdultService
     {
-        private string adultFile = "persons.json";
+        private string adultFile = "adults.json";
         private IList<Adult> adults;
 
         public AdultService()
@@ -31,6 +34,20 @@ namespace Assignment1.Data
             return tmp2;
         }
 
+        public Adult GetById(int id)
+        { 
+            foreach (var item in GetAdults())
+            {
+                if (item.Id == id)
+                {
+                    Adult adult = item;
+                    return adult;
+                }
+            }
+
+            return null;
+        }
+
         public void AddAdult(Adult adult)
         {
             var max = adults.Max(adult => adult.Id);
@@ -38,13 +55,24 @@ namespace Assignment1.Data
             adults.Add(adult);
             WritePersonsToFile();
         }
+        
+        public void EditAdult(Adult adult)
+        {
+            adult.Update(adult);
+            
+        }
 
         private void adultsFile()
         {
             var productsAsJson = JsonSerializer.Serialize(adults);
             File.WriteAllText(adultFile, productsAsJson);
         }
-
+        public void RemoveAdult(int Id)
+        {
+            var toRemove = adults.First(t => t.Id == Id);
+            adults.Remove(toRemove);
+            adultsFile();
+        }
         private void Seed()
         {
             Adult[] ps =
@@ -85,5 +113,19 @@ namespace Assignment1.Data
             var productsAsJson = JsonSerializer.Serialize(adults);
             File.WriteAllText(adultFile, productsAsJson);
         }
+
+        public void UpdateAdult(Adult adultToUpdate)
+        {
+            foreach (var item in adults)
+            {
+                if (item.Id == adultToUpdate.Id)
+                {
+                    item.Update(adultToUpdate);
+                }
+            }
+            adultsFile();
+        }
     }
+
+    
 }

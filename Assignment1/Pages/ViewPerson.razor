@@ -1,0 +1,88 @@
+﻿@page "/ViewPerson"
+
+@using Assignment1.Data
+@using Assignment1.Models
+@inject IAdultService AdultService
+<h3>Edit Adult</h3>
+<p>
+    Filter by Id: <input type="number" @oninput="@((arg)=> FilterById(arg))" style="width:50px"/>
+</p>
+@if (adultsToShow == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else if (!allAdults.Any())
+{
+    <p>
+        <em>No adults in list.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>JobTitle</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in adultsToShow)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.JobTitle</td>
+                <td>
+                    <a class="btn btn-primary"
+                       href='/EditPerson/@item.Id'>Edit</a>
+                    <a class="btn btn-warning" href='/DeletePerson/@item.Id'>Delete</a>
+                                        
+                </td> 
+               </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+    private IList<Adult> adultsToShow;
+    private IList<Adult> allAdults;
+    private int? filterById;
+   
+
+  
+    
+    protected override async Task OnInitializedAsync()
+    {
+        allAdults = AdultService.GetAdults();
+        adultsToShow = allAdults;
+    }
+    
+    
+    private void FilterById(ChangeEventArgs args)
+    {
+        filterById = null;
+        try
+        {
+            filterById = int.Parse(args.Value.ToString());
+        }
+        catch (Exception e)
+        {
+        }
+        ExecuteFilter();
+    }
+    
+    private void ExecuteFilter()
+    {
+        adultsToShow = allAdults.Where(t =>
+            (filterById != null && t.Id == filterById || filterById == null) 
+            ).ToList();
+    }
+
+}

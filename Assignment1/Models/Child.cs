@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Models;
 
 namespace Assignment1.Models {
 public class Child : Person {

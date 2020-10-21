@@ -10,8 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Assignment1.Data;
-using Assignment1.Data.Authorization;
 using Assignment1.Data.Authorization.Impl;
+using Assignment1.Data.Authorization;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
 
