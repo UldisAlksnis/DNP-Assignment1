@@ -98,6 +98,7 @@ else
     async Task DisplaySearch()
     {
         errorMessage = "";
+        bool selectionMade = false;
         try
         {
             <div class="form-group">
@@ -108,7 +109,15 @@ else
                 <select class="form-control selectpicker" @bind="filter">
                     @foreach (var item in filters)
                     {
-                        <option value="@item.ToString()">@item.ToString()</option>
+                        if (!selectionMade)
+                        {
+                            <option value="@item.ToString()" selected = "selected">@item.ToString()</option>
+                            selectionMade = true;
+                        }
+                        else
+                        {
+                            <option value="@item.ToString()">@item.ToString()</option>
+                        }
                     }
                 </select>
             </div>
