@@ -21,16 +21,6 @@ namespace Assignment1.Data.Authorization.Impl
                     BirthYear = 1997,
                     SecurityLevel = 4,
                     UserName = "Admin"
-                },
-                new User
-                {
-                    City = "Horsens",
-                    Domain = "assignment1.family",
-                    Password = "111111",
-                    Role = "User",
-                    BirthYear = 1997,
-                    SecurityLevel = 2,
-                    UserName = "User"
                 }
             }.ToList();
         }
